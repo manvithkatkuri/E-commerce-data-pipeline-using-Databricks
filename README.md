@@ -9,7 +9,7 @@ This project focuses on building a scalable and efficient data pipeline for an e
 
 Below is the workflow for the data pipeline architecture. It follows the **Medallion Architecture**, transforming raw data into analytics-ready insights step by step.
 
-![Workflow Diagram](workflow.png)
+![Workflow Diagram](img/workflow.png)
 
 ### **Detailed Workflow Explanation**
 1. **Data Ingestion**:
