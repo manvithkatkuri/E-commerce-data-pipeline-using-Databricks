@@ -18,6 +18,10 @@ Below is the workflow for the data pipeline architecture. It follows the **Medal
      - A pipeline is built to ingest the user data chunks into **Azure Data Lake Storage**, converting them from CSV to Parquet and storing them in **Landing-Zone-1**.
      - Another pipeline is created for ingesting related datasets, such as sellers, buyers, and countries, ensuring all data aligns for downstream processing.
 
+![Data Pipeline 1](pipelines/Screenshot 2024-12-19 190351.png)
+![Data Pipeline 2]( pipelines/Screenshot 2024-12-19 190407.png)
+
+
 2. **Data Transformation**:
    - **Bronze Layer**: Raw Parquet files are ingested into Delta Lake without modification, maintaining data traceability.
    - **Silver Layer**: Data cleaning and transformation are performed:
