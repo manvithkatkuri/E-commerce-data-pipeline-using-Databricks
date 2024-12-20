@@ -97,25 +97,3 @@ Using the **Medallion Architecture**, the transformation involves three layers:
 
 ---
 
-## **How to Run the Project**
-1. Clone this repository to your local system.
-2. Open the **Databricks Notebooks** provided in the `Bronze_Layer.ipynb`, `Silver_Layer.ipynb`, and `Gold_Layer.ipynb` files to process data.
-3. Deploy the pipelines using **Azure Data Factory**.
-4. Load the processed data into Power BI to create dashboards for visualization.
-
----
-
-## **Outputs**
-### Example Dashboards
-- **Bar Chart**: Average products listed by country.
-- **Pie Chart**: Seller distribution by region.
-- **Column Chart**: Total products sold across countries.
-
----
-
-## **Conclusion**
-This project demonstrates how Azure Databricks, along with other Azure services, can be leveraged to build a robust and efficient data pipeline for e-commerce. By following the Medallion Architecture and using Power BI for visualization, the pipeline provides actionable insights into user behavior, platform performance, and engagement trends.
-
----
-
-Feel free to customize this with your workflow image and adjust descriptions as needed! Let me know if you need further refinements.
